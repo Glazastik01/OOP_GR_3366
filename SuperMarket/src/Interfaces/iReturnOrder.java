@@ -3,6 +3,8 @@ package Interfaces;
 import Classes.Actor;
 
 public interface iReturnOrder {
-    void requestReturnOrder(Actor order);
-    void confirmReturnOrder(Actor order);
+    void returnOrder(iActorBehaviour actor);
+    void acceptReturn();
+    void DefoltReturn();
+    void cashReturn();
 }
